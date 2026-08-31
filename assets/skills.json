@@ -1,0 +1,13 @@
+{
+  "title": "Skill Radar",
+  "_comment": "Self-rated 0-100, informed by the language mix across the public repos (JavaScript ~27%, CSS ~17%, HTML ~16%, Jupyter ~13%, TypeScript ~8%). Edit these - they are a self-assessment, not a measurement. 5-8 axes reads best.",
+  "axes": [
+    { "label": "JavaScript",  "value": 88 },
+    { "label": "HTML / CSS",  "value": 85 },
+    { "label": "React",       "value": 82 },
+    { "label": "TypeScript",  "value": 68 },
+    { "label": "Node / API",  "value": 74 },
+    { "label": "Databases",   "value": 66 },
+    { "label": "Python / ML", "value": 64 }
+  ]
+}

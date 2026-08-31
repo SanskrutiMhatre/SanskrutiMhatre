@@ -1,0 +1,21 @@
+{
+  "_comment": "Featured repos, in README order. Star/fork/language come live from the API on every run; the description here overrides the repo's GitHub description (none of these four have one set). Setting them on GitHub too is worth doing - it helps anyone browsing your repo list.",
+  "projects": [
+    {
+      "repo": "Manasheal",
+      "description": "A mental-health platform built for EduHacks around UN Sustainable Development Goal 3. React front end, awareness and well-being tools, live on Netlify."
+    },
+    {
+      "repo": "DockerLab",
+      "description": "Containerised lab environments for technical institutions. Pre-configured Docker images for Networking, Cybersecurity and DevOps courses, delivered through an Electron desktop app."
+    },
+    {
+      "repo": "Virtual-Art-Gallery-Website",
+      "description": "A digital gallery for art enthusiasts: exhibitions, events, workshops and a blog, hand-built in HTML, CSS and JavaScript."
+    },
+    {
+      "repo": "Talent_Corner-Job_Portal",
+      "description": "A job portal connecting seekers with employers. Listings, company profiles and application tooling on a React front end with an Express backend."
+    }
+  ]
+}
