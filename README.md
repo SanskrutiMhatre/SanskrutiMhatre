@@ -10,7 +10,7 @@
 
 <!-- NAME / TAGLINE - animated typing -->
 <a href="https://github.com/SanskrutiMhatre">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=560&lines=Sanskruti+Mhatre;Frontend+%26+Full+Stack+Dev;Machine+Learning+Enthusiast;01100011+01101111+01100100+01100101" alt="typing banner">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=560&lines=Sanskruti+Mhatre;Frontend+%26+Full+Stack+Dev" alt="typing banner">
 </a>
 
 <br>
@@ -27,13 +27,7 @@
 
 </div>
 
----
 
-## `~/` whoami
-
-```console
-$ cat about.txt
-```
 
 Hi, I'm **Sanskruti Mhatre**. I build for the web:- frontend first, backend when it needs one and I keep wandering into machine learning whenever a problem looks like it wants a model.
 
@@ -60,16 +54,7 @@ Hi, I'm **Sanskruti Mhatre**. I build for the web:- frontend first, backend when
 
 <table>
 <tr>
-<td width="50%" align="center" valign="middle">
 
-<!-- Self-rated radar - edit assets/skills.json, the workflow redraws it -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
-  <img src="assets/radar-dark.svg" width="400" alt="skill radar chart">
-</picture>
-
-</td>
 <td width="50%" align="center" valign="middle">
 
 <!-- Live radar built from real language byte counts across your repos -->
@@ -88,11 +73,6 @@ Hi, I'm **Sanskruti Mhatre**. I build for the web:- frontend first, backend when
 ---
 
 <div align="center">
-
-## `~/` contribution calendar
-
-<!-- 3D isometric calendar, regenerated every 6h by .github/workflows/metrics.yml -->
-<img src="assets/metrics.isocalendar.svg" width="90%" alt="3D isometric contribution calendar">
 
 <br><br>
 
