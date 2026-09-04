@@ -125,21 +125,29 @@ outside it, and `--equalize` measures only the subject rather than a huge empty
 background. `jacket.png` already has one. It is built from the GitHub avatar photo:
 
 1. **Crop to the whole figure.** Run the segmentation mask over the *full* 460x460 avatar
-   first and read the subject's bounding box off it — here `(188,159)-(345,460)`. Crop to a
-   3:4 box containing all of it (`(149,147)-(384,460)`). Guessing the crop by eye is how the
-   first attempt ended up slicing 30% of the body off at the knees.
-2. **Upscale with EDSR x4, not Lanczos.** The subject is only 157x301 real pixels, so it has
+   first and read the subject's bounding box off it — here `(69,21)-(409,460)`. Crop to a
+   square box containing all of it; on the current avatar the subject is already framed that
+   way, so the 460x460 is used whole. Guessing the crop by eye is how an early attempt ended
+   up slicing 30% of the body off at the knees. Keep it square: the dot grid is then 150x150
+   and the SVG keeps its 1516x1516 box, and nothing gets stretched to get there.
+2. **Upscale with EDSR x4, not Lanczos.** The subject is only 340x439 real pixels, so it has
    to be enlarged before it can carry a 150-column dot grid. Lanczos plus an unsharp mask
    looks sharper on paper but rings badly at this scale, and the halos bake straight into the
    dots as speckle — the "breaking pixels" look. `EDSR_x4.pb` via OpenCV's `dnn_superres`
    reconstructs the same edges cleanly. FSRCNN is the fast alternative, slightly softer.
-3. **Remove the background** (`u2net_human_seg` with alpha matting), so the sky, the pine and
-   the balcony railing all drop out and only the subject is drawn.
-4. **Lift the exposure** 2.1x with saturation at 1.6x. Dark hair over a dark jacket otherwise
-   renders as dots too close to `#0d1117` to read on GitHub's dark theme.
+3. **Remove the background** (`u2net_human_seg` with alpha matting), so the studio backdrop
+   drops out and only the subject is drawn. Run it on the upscaled frame, not before, so the
+   mask edge is cut at full resolution instead of being enlarged after the fact. Then resize
+   the cutout to 880x880.
+4. **Lift the exposure and saturation.** Currently 1.0x and 1.3x. The point is that dots too
+   close to `#0d1117` vanish on GitHub's dark theme, so a dark photo needs a real lift — an
+   older, dimmer source here wanted 2.1x. This one is already well exposed (median luminance
+   112 against that one's 29), and 2.1x would clip a third of the subject to flat white, so
+   only the saturation gets a nudge: enough for the dots to read as colour on the light theme,
+   short of the sepia cast a bigger push gives an already-beige photo.
 
 **The resolution ceiling.** `avatars.githubusercontent.com` serves this account's avatar at
-460x460 and ignores `?s=` above that, and the subject occupies only 157x301 of those pixels.
+460x460 and ignores `?s=` above that, and the subject occupies only 340x439 of those pixels.
 Super-resolution buys back a lot, but it cannot invent detail that was never captured, so the
 face stays soft under close inspection. The only real fix is a higher-resolution photo: drop
 one in as `assets/jacket.png` and re-run the dotify command above. If it still has its
