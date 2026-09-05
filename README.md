@@ -29,7 +29,7 @@
 
 
 
-Hi, I'm **Sanskruti Mhatre**. I build for the web:- frontend first, backend when it needs one and I keep wandering into machine learning whenever a problem looks like it wants a model.
+Hi, I'm **Sanskruti Mhatre**. - a Software Engineer who enjoys turning ideas into reliable, scalable software..
 
 - Currently building **[NeuroMesh](https://github.com/SanskrutiMhatre/DEVELOPMENT-STANDARDIZATION)** and **[Redis](https://github.com/SanskrutiMhatre/Manasheal)**
 - Portfolio: **[portfolio-sanskruti-mhatres-projects.vercel.app](https://portfolio-sanskruti-mhatres-projects.vercel.app)**
