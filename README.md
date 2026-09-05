@@ -31,10 +31,10 @@
 
 Hi, I'm **Sanskruti Mhatre**. I build for the web:- frontend first, backend when it needs one and I keep wandering into machine learning whenever a problem looks like it wants a model.
 
-- Currently building **[DEVELOPMENT-STANDARDIZATION](https://github.com/SanskrutiMhatre/DEVELOPMENT-STANDARDIZATION)** and **[Manasheal](https://github.com/SanskrutiMhatre/Manasheal)**
+- Currently building **[NeuroMesh](https://github.com/SanskrutiMhatre/DEVELOPMENT-STANDARDIZATION)** and **[Redis](https://github.com/SanskrutiMhatre/Manasheal)**
 - Portfolio: **[portfolio-sanskruti-mhatres-projects.vercel.app](https://portfolio-sanskruti-mhatres-projects.vercel.app)**
 - Based in **Mumbai, Maharashtra**
-- Fun fact: **Eager to learn and explore in the world of software development, let's connect and build something.**
+- Fun fact: **I don't fear production bugs. I fear the developer who says “it works on my machine.”**
 
 <br>
 
