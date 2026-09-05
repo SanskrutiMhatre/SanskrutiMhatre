@@ -29,7 +29,8 @@
 
 
 
-Hi, I'm **Sanskruti Mhatre**. - a Software Engineer who enjoys turning ideas into reliable, scalable software..
+Hi, I'm **Sanskruti Mhatre**. - **I work across frontend, backend, DevOps, cloud, and automation — because apparently writing code wasn't enough, so I decided to worry about how it looks, where it runs, and whether it actually works.** 🐳☁️💀
+
 
 - Currently building **[NeuroMesh](https://github.com/SanskrutiMhatre/DEVELOPMENT-STANDARDIZATION)** and **[Redis](https://github.com/SanskrutiMhatre/Manasheal)**
 - Portfolio: **[portfolio-sanskruti-mhatres-projects.vercel.app](https://portfolio-sanskruti-mhatres-projects.vercel.app)**
