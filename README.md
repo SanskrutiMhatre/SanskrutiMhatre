@@ -29,7 +29,7 @@
 
 
 
-Hi, I'm **Sanskruti Mhatre**. - **I work across frontend, backend, DevOps, cloud, and automation — because apparently writing code wasn't enough, so I decided to worry about how it looks, where it runs, and whether it actually works.** 🐳☁️💀
+Hi, I'm **Sanskruti Mhatre** — **I work across frontend, backend, DevOps, cloud, and automation , because apparently writing code wasn't enough, so I decided to worry about how it looks, where it runs, and whether it actually works.** 🐳☁️💀
 
 
 - Currently building **[NeuroMesh](https://github.com/SanskrutiMhatre/DEVELOPMENT-STANDARDIZATION)** and **[Redis](https://github.com/SanskrutiMhatre/Manasheal)**
