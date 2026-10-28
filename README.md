@@ -33,7 +33,7 @@ Hi, I'm **Sanskruti Mhatre** — **I work across frontend, backend, DevOps, clou
 
 
 - Currently building **[NeuroMesh](https://github.com/SanskrutiMhatre/DEVELOPMENT-STANDARDIZATION)** and **[Redis](https://github.com/SanskrutiMhatre/Manasheal)**
-- Portfolio: **[portfolio-sanskruti-mhatres-projects.vercel.app](https://portfolio-sanskruti-mhatres-projects.vercel.app)**
+- Portfolio: **[sanskrutimhatre.com](https://www.sanskrutimhatre.com/)**
 - Based in **Mumbai, Maharashtra**
 - Fun fact: **I don't fear production bugs. I fear the developer who says “it works on my machine.”**
 
